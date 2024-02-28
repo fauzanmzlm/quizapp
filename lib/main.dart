@@ -13,6 +13,8 @@ void main() {
                 Color.fromARGB(255, 31, 24, 166),
                 Color.fromARGB(255, 22, 110, 243),
               ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child: const StartScreen(),
