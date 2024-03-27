@@ -29,7 +29,7 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
               backgroundColor: const Color.fromARGB(255, 219, 84, 6),
             ),
-            onPressed: startQuiz,
+            onPressed: () => startQuiz(),
             icon: const Icon(Icons.arrow_right_alt),
             label: const Text('Start Quiz'),
           )
